@@ -15,7 +15,7 @@ body {
 
 /* 🔴 CSS Property name Error here 👇 */
 body {
-  background-colo: #030a1e;
+  background-color: #030a1e;
 }
 
 .content {
@@ -37,9 +37,10 @@ h2 {
 }
 
 /* 🔴 CSS Syntax Error here 👇 */
-main
+main {
   width: 100%;
-  padding-top: 60px;
+  max-width: 964px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 60px;
